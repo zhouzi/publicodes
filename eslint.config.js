@@ -32,6 +32,8 @@ export default tseslint.config(
 			'.yarn',
 			'.typedoc/',
 			'packages/codemod/update-v1.js',
+			// Script d'outillage autonome, hors du projet TypeScript et volontairement bavard.
+			'publish-fork.mjs',
 		],
 	},
 )
